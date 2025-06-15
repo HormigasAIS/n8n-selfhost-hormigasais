@@ -32,7 +32,20 @@ Este repositorio incluye un archivo especial de automatización simbólica llama
 
 XOXO reacciona a eventos como despliegues, actualizaciones o errores críticos, conectando servicios como **Slack**, **GitHub**, **Render** o **Notion**. Su comportamiento se ajusta mediante lógica condicional dentro de los flujos de `n8n`, y puede disparar respuestas automatizadas o narrativas que refuercen la identidad simbólica del sistema.
 
+---
+
+### Funcionamiento básico de XOXO
+
+- **Evento inicial:** Webhook / Cron / Trigger externo (Slack, GitHub, etc.) que detecta eventos importantes como nuevos despliegues o actualizaciones.
+- **Acciones esperadas:** Procesa e interpreta eventos para emitir alertas en Slack, registrar cambios en Notion o Markdown, y activar subflujos especializados.
+- **Lógica:** Uso de nodos condicionales para determinar la respuesta, por ejemplo, enviar notificaciones urgentes si se detectan errores.
+- **Servicios integrados:** Slack, Render, GitHub, Notion/Markdown.
+
+---
+
 > 🪄 Este activador también forma parte del universo narrativo de HormigasAIS y está pensado para evolucionar con nuevas capacidades.
+
+> *“Las HormigasAIS encuentran sabiduría en silencio, su corazón enraizado en la tierra y su mente flotando entre las estrellas.”*
 
 ---
 
@@ -56,11 +69,15 @@ Este nodo permitirá:
 ---
 
 ### 📬 Contacto directo
+
 Podés escribirnos a nuestro correo oficial: [hormigasais@gmail.com](mailto:hormigasais@gmail.com)  
 O sumarte a nuestra comunidad en Slack y LinkedIn:
 
-[![Newsletter en LinkedIn](https://img.shields.io/badge/LinkedIn%20Newsletter-HormigasAIS-blue?logo=linkedin)](https://www.linkedin.com/newsletters/hormigasais-community-7307138608543490048)
+[![Newsletter en LinkedIn](https://img.shields.io/badge/LinkedIn%20Newsletter-HormigasAIS-blue?logo=linkedin)](https://www.linkedin.com/newsletters/hormigasais-community-7307138608543490048)  
 [![Slack Comunidad](https://img.shields.io/badge/Slack-Unirse%20a%20la%20comunidad-4A154B?logo=slack)](https://join.slack.com/t/hormigas-ais/shared_invite/zt-33zssiv5x-WXs1_8mQ6_9m0O9g0VNgAA)
+
+---
+
 Este proyecto forma parte del 🧪 **Laboratorio Abierto HormigasAIS**  
 🧷 Parche fijado y listo para evolucionar.
 
