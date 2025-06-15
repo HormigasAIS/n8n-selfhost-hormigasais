@@ -26,14 +26,6 @@ Este es un parche inicial para autoalojar `n8n` dentro del ecosistema **Hormigas
 
 ---
 
-## 🧠 Activador simbólico – XOXO
-
-Este repositorio incluye un archivo especial de automatización simbólica llamado [`xoxo-activador.md`](.md/xoxo-activador.md), que representa al personaje IA **XOXO** como punto de enlace entre los eventos clave del ecosistema HormigasAIS y los flujos de automatización de `n8n`.
-
-XOXO reacciona a eventos como despliegues, actualizaciones o errores críticos, conectando servicios como **Slack**, **GitHub**, **Render** o **Notion**. Su comportamiento se ajusta mediante lógica condicional dentro de los flujos de `n8n`, y puede disparar respuestas automatizadas o narrativas que refuercen la identidad simbólica del sistema.
-
----
-
 ### Funcionamiento básico de XOXO
 
 - **Evento inicial:** Webhook / Cron / Trigger externo (Slack, GitHub, etc.) que detecta eventos importantes como nuevos despliegues o actualizaciones.
